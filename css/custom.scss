@@ -1,0 +1,13 @@
+// Import Bootstrap's core SCSS
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Cusomize Bootstrap variables before importing the rest of the styles
+$primary: #4caf50;
+
+// Change default serif font
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+// Additional custom styles
+body {
+    background-color: #f8f9fa;    
+}

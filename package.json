@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-sass-website",
+  "version": "1.0.0",
+  "description": "A Bootstrap sass webiste",
+  "license": "MIT",
+  "author": "Htet Hlaing Win",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.93.2"
+  }
+}
