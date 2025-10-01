@@ -18,3 +18,9 @@ npm install sass
 npx sass --watch dir/scss:dir/css
 npx sass --watch css:css
 ```
+
+## Installing vite for build tool
+
+```sh
+npm install vite --save-dev
+```
