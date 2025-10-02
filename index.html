@@ -34,11 +34,18 @@
         </div>
     </nav>
     <div
-    class="hero text-center text-white d-flex align-items-center justify-content-center"
-    style="background: url('./assets/hero-bg-2.jpg') no-repeat center center / cover; height: 100vh;"
+        class="hero position-relative text-white d-flex align-items-center justify-content-center"
+        style="height: 100vh;"
     >
-        <h1>Stream Smarter, Deliver Faster</h1>
-        <p>Optimized video solutions for your SaaS needs.</p>
+        <div 
+            class="position-absolute w-100 h-100"
+            style="background: url('./assets/hero-bg-2.jpg') no-repeat center center / cover;"
+        ></div>
+        <div class="position-absolute w-100 h-100 bg-dark opacity-50"></div>
+        <div class="position-relative">
+            <h1>Stream Smarter, Deliver Faster</h1>
+            <p>Optimized video solutions for your SaaS needs.</p>
+        </div>
     </div>
     <footer class="bg-dark text-light py-4">
         <div class="container">
